@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 108.0.0.0,Testing semua test case fitur login dengan button make appointment,,2022-12-27 23:04:37,2022-12-27 23:05:26,49.020s,PASSED
+,,,,,,,
+Test Cases/Login/TWL01_Verify move login page,Chrome 108.0.0.0,"Masuk ke alamat ""https://katalon-demo-cura.herokuapp.com/""",,2022-12-27 23:04:37,2022-12-27 23:04:47,9.828s,PASSED
+openBrowser(G_SiteURL),Chrome 108.0.0.0,,,2022-12-27 23:04:37,2022-12-27 23:04:44,6.421s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-27 23:04:44,2022-12-27 23:04:44,0.302s,PASSED
+"verifyElementClickable(findTestObject(""Login/btn_appointment""))",Chrome 108.0.0.0,,,2022-12-27 23:04:44,2022-12-27 23:04:45,0.498s,PASSED
+"click(findTestObject(""Login/btn_appointment""))",Chrome 108.0.0.0,,,2022-12-27 23:04:45,2022-12-27 23:04:46,1.176s,PASSED
+"comment(""Move to login page"")",Chrome 108.0.0.0,,,2022-12-27 23:04:46,2022-12-27 23:04:46,0.023s,PASSED
+"verifyElementClickable(findTestObject(""Login/button_Login""))",Chrome 108.0.0.0,,,2022-12-27 23:04:46,2022-12-27 23:04:46,0.437s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-27 23:04:46,2022-12-27 23:04:47,0.668s,PASSED
+,,,,,,,
+Test Cases/Login/TWL02_Verify login without password and username,Chrome 108.0.0.0,Login tanpa memasukan username dan password,,2022-12-27 23:04:47,2022-12-27 23:04:55,8.010s,PASSED
+openBrowser(URL_Login),Chrome 108.0.0.0,,,2022-12-27 23:04:47,2022-12-27 23:04:52,4.891s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-27 23:04:52,2022-12-27 23:04:52,0.167s,PASSED
+"verifyElementClickable(findTestObject(""Login/button_Login""))",Chrome 108.0.0.0,,,2022-12-27 23:04:52,2022-12-27 23:04:53,0.384s,PASSED
+"click(findTestObject(""Login/button_Login""))",Chrome 108.0.0.0,,,2022-12-27 23:04:53,2022-12-27 23:04:54,1.176s,PASSED
+"comment(""Login Failed"")",Chrome 108.0.0.0,,,2022-12-27 23:04:54,2022-12-27 23:04:54,0.003s,PASSED
+"verifyElementPresent(findTestObject(""Login/Alert_login failed""), 0)",Chrome 108.0.0.0,,,2022-12-27 23:04:54,2022-12-27 23:04:54,0.429s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-27 23:04:54,2022-12-27 23:04:55,0.661s,PASSED
+,,,,,,,
+Test Cases/Login/TWL03_Verify login without password,Chrome 108.0.0.0,Login hanya input username,,2022-12-27 23:04:55,2022-12-27 23:05:05,9.619s,PASSED
+openBrowser(URL_Login),Chrome 108.0.0.0,,,2022-12-27 23:04:55,2022-12-27 23:05:00,5.288s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-27 23:05:00,2022-12-27 23:05:01,0.232s,PASSED
+"verifyElementClickable(findTestObject(""Login/button_Login""))",Chrome 108.0.0.0,,,2022-12-27 23:05:01,2022-12-27 23:05:01,0.408s,PASSED
+"setText(findTestObject(""Login/input_username""), ""John Doe"")",Chrome 108.0.0.0,,,2022-12-27 23:05:01,2022-12-27 23:05:02,1.014s,PASSED
+"click(findTestObject(""Login/button_Login""))",Chrome 108.0.0.0,,,2022-12-27 23:05:02,2022-12-27 23:05:03,1.313s,PASSED
+"verifyElementPresent(findTestObject(""Login/Alert_login failed""), 0)",Chrome 108.0.0.0,,,2022-12-27 23:05:03,2022-12-27 23:05:04,0.381s,PASSED
+"comment(""Login Failed"")",Chrome 108.0.0.0,,,2022-12-27 23:05:04,2022-12-27 23:05:04,0.002s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-27 23:05:04,2022-12-27 23:05:05,0.743s,PASSED
+,,,,,,,
+Test Cases/Login/TWL04_Verify login without username,Chrome 108.0.0.0,Login tanpa input username,,2022-12-27 23:05:05,2022-12-27 23:05:15,10.368s,PASSED
+openBrowser(URL_Login),Chrome 108.0.0.0,,,2022-12-27 23:05:05,2022-12-27 23:05:11,5.950s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-27 23:05:11,2022-12-27 23:05:11,0.192s,PASSED
+"verifyElementClickable(findTestObject(""Login/button_Login""))",Chrome 108.0.0.0,,,2022-12-27 23:05:11,2022-12-27 23:05:11,0.428s,PASSED
+"setText(findTestObject(""Login/input_password""), ""ThisIsNotAPassword"")",Chrome 108.0.0.0,,,2022-12-27 23:05:11,2022-12-27 23:05:13,1.109s,PASSED
+"click(findTestObject(""Login/button_Login""))",Chrome 108.0.0.0,,,2022-12-27 23:05:13,2022-12-27 23:05:14,1.290s,PASSED
+"verifyElementPresent(findTestObject(""Login/Alert_login failed""), 0)",Chrome 108.0.0.0,,,2022-12-27 23:05:14,2022-12-27 23:05:14,0.438s,PASSED
+"comment(""Login Failed"")",Chrome 108.0.0.0,,,2022-12-27 23:05:14,2022-12-27 23:05:14,0.003s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-27 23:05:14,2022-12-27 23:05:15,0.691s,PASSED
+,,,,,,,
+Test Cases/Login/TWL05_Verify login succes,Chrome 108.0.0.0,Login dengan username dan password yang benar,,2022-12-27 23:05:15,2022-12-27 23:05:26,10.927s,PASSED
+openBrowser(URL_Login),Chrome 108.0.0.0,,,2022-12-27 23:05:15,2022-12-27 23:05:20,5.184s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-27 23:05:20,2022-12-27 23:05:21,0.322s,PASSED
+"verifyElementClickable(findTestObject(""Login/button_Login""))",Chrome 108.0.0.0,,,2022-12-27 23:05:21,2022-12-27 23:05:21,0.404s,PASSED
+"setText(findTestObject(""Login/input_username""), ""John Doe"")",Chrome 108.0.0.0,,,2022-12-27 23:05:21,2022-12-27 23:05:22,0.941s,PASSED
+"setText(findTestObject(""Login/input_password""), ""ThisIsNotAPassword"")",Chrome 108.0.0.0,,,2022-12-27 23:05:22,2022-12-27 23:05:23,1.213s,PASSED
+"click(findTestObject(""Login/button_Login""))",Chrome 108.0.0.0,,,2022-12-27 23:05:23,2022-12-27 23:05:25,1.288s,PASSED
+"comment(""Move to make appointement page"")",Chrome 108.0.0.0,,,2022-12-27 23:05:25,2022-12-27 23:05:25,0.002s,PASSED
+"verifyElementClickable(findTestObject(""Login/btn_Logout""))",Chrome 108.0.0.0,,,2022-12-27 23:05:25,2022-12-27 23:05:25,0.523s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-27 23:05:25,2022-12-27 23:05:26,0.700s,PASSED

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Testing fitur login dengan positif dan negatif case</description>
+   <name>TWL01_Verify login failed and success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a18ceb50-1b39-44c0-a425-cd1df1440346</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad41cc55-1423-45f6-9f63-1671830c1041</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>012ee780-57ca-4322-a72d-8b9b737c5a00</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>input data username</description>
+      <id>ad41cc55-1423-45f6-9f63-1671830c1041</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>input data password</description>
+      <id>012ee780-57ca-4322-a72d-8b9b737c5a00</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

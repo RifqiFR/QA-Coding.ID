@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checkout Item dari cart</description>
+   <name>TWC01_Verify checkout item</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c29c312e-be41-4e3e-8971-c9703029ba63</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>42b037ce-22e6-4d4a-bf37-f762905e5460</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0b3033c9-3f4e-4170-aab3-94dd4f6d1f62</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d66ce9f9-8ef3-46a0-a3d1-73e75d71a6f4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>42b037ce-22e6-4d4a-bf37-f762905e5460</id>
+      <masked>false</masked>
+      <name>firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0b3033c9-3f4e-4170-aab3-94dd4f6d1f62</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d66ce9f9-8ef3-46a0-a3d1-73e75d71a6f4</id>
+      <masked>false</masked>
+      <name>zipcode</name>
+   </variable>
+</TestCaseEntity>

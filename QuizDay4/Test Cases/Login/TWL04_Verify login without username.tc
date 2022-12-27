@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login tanpa input username</description>
+   <name>TWL04_Verify login without username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>735ced02-f539-4684-80f9-46a31b5f4f7a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>13082b98-baaf-4f60-905d-d402abd9874c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://katalon-demo-cura.herokuapp.com/profile.php#login\r\n'</defaultValue>
+      <description>URL login page</description>
+      <id>13082b98-baaf-4f60-905d-d402abd9874c</id>
+      <masked>false</masked>
+      <name>URL_Login</name>
+   </variable>
+</TestCaseEntity>

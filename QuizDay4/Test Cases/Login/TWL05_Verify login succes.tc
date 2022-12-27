@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login dengan username dan password yang benar</description>
+   <name>TWL05_Verify login succes</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df7af9b1-430d-4174-9dcc-1474b4b08685</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5528d071-bb34-4a0a-b06a-1b5ce6aba81d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://katalon-demo-cura.herokuapp.com/profile.php#login\r\n'</defaultValue>
+      <description>URL login page</description>
+      <id>5528d071-bb34-4a0a-b06a-1b5ce6aba81d</id>
+      <masked>false</masked>
+      <name>URL_Login</name>
+   </variable>
+</TestCaseEntity>

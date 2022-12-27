@@ -1,0 +1,8 @@
+{"testCaseName":"Test Cases/User/Login/LG-001","testCaseId":"Test Cases/User/Login/LG-001","iterationVariableName":""}
+{"testCaseName":"Test Cases/User/Login/LG-001","testCaseId":"Test Cases/User/Login/LG-001","iterationVariableName":"","bindedValues":{"Username":"\u0027InvalidUsername\u0027"}}
+{"testCaseName":"Test Cases/User/Login/LG-001","testCaseId":"Test Cases/User/Login/LG-001","iterationVariableName":"","bindedValues":{"Password":"\u0027InvalidPassword\u0027"}}
+{"testCaseName":"Test Cases/User/Login/LG-001","testCaseId":"Test Cases/User/Login/LG-001","iterationVariableName":"","bindedValues":{"Username":"\u0027InvalidUsername\u0027","Password":"\u0027InvalidPassword\u0027"}}
+{"testCaseName":"Test Cases/User/Login/LG-001","testCaseId":"Test Cases/User/Login/LG-001","iterationVariableName":"","bindedValues":{"Username":"\u0027bob@example.com\u0027","Password":"\u0027invalidPassword\u0027"}}
+{"testCaseName":"Test Cases/User/Login/LG-001","testCaseId":"Test Cases/User/Login/LG-001","iterationVariableName":"","bindedValues":{"Username":"\u0027InvalidUsername\u0027","Password":"\u002710203040\u0027"}}
+{"testCaseName":"Test Cases/User/Login/LG-001","testCaseId":"Test Cases/User/Login/LG-001","iterationVariableName":"","bindedValues":{"Username":"\u0027alice@example.com\u0027","Password":"\u002710203040\u0027"}}
+{"testCaseName":"Test Cases/User/Login/LG-006","testCaseId":"Test Cases/User/Login/LG-006","iterationVariableName":""}

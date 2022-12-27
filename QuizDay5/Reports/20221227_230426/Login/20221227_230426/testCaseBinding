@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/Login/TWL01_Verify move login page","testCaseId":"Test Cases/Login/TWL01_Verify move login page","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TWL02_Verify login without password and username","testCaseId":"Test Cases/Login/TWL02_Verify login without password and username","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TWL03_Verify login without password","testCaseId":"Test Cases/Login/TWL03_Verify login without password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TWL04_Verify login without username","testCaseId":"Test Cases/Login/TWL04_Verify login without username","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TWL05_Verify login succes","testCaseId":"Test Cases/Login/TWL05_Verify login succes","iterationVariableName":""}

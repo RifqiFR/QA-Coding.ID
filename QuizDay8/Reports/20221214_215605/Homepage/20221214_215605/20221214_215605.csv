@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Homepage,,,,2022-12-14 21:56:09,2022-12-14 21:58:24,2m - 14.320s,PASSED
+,,,,,,,
+Test Cases/User/Homepage/HP-001,,,,2022-12-14 21:56:10,2022-12-14 21:57:01,51.116s,PASSED
+"startExistingApplication(G_Package, STOP_ON_FAILURE)",,,,2022-12-14 21:56:10,2022-12-14 21:56:44,33.350s,PASSED
+"waitForElementPresent(findTestObject(""Homepage/txt_Products""), 0)",,,,2022-12-14 21:56:44,2022-12-14 21:56:51,7.018s,PASSED
+"verifyElementExist(findTestObject(""Homepage/txt_Products""), 0)",,,,2022-12-14 21:56:51,2022-12-14 21:56:52,1.249s,PASSED
+"tap(findTestObject(""Homepage/btn_Menu""), 0)",,,,2022-12-14 21:56:52,2022-12-14 21:56:53,1.051s,PASSED
+"verifyElementExist(findTestObject(""Homepage/menu__btn_Webview""), 0)",,,,2022-12-14 21:56:53,2022-12-14 21:56:56,2.670s,PASSED
+"tap(findTestObject(""Homepage/menu__btn_Webview""), 0)",,,,2022-12-14 21:56:56,2022-12-14 21:56:57,1.055s,PASSED
+"waitForElementPresent(findTestObject(""Webview/txt_Webview""), 0)",,,,2022-12-14 21:56:57,2022-12-14 21:56:59,2.216s,PASSED
+"verifyElementVisible(findTestObject(""Webview/txt_Webview""), 0)",,,,2022-12-14 21:56:59,2022-12-14 21:57:00,0.538s,PASSED
+driver = getDriver(),,,,2022-12-14 21:57:00,2022-12-14 21:57:00,0.002s,PASSED
+driver.terminateApp(G_Package),,,,2022-12-14 21:57:00,2022-12-14 21:57:01,1.340s,PASSED
+,,,,,,,
+Test Cases/User/Homepage/HP-002,,,,2022-12-14 21:57:01,2022-12-14 21:57:47,45.800s,PASSED
+"startExistingApplication(G_Package, STOP_ON_FAILURE)",,,,2022-12-14 21:57:01,2022-12-14 21:57:30,28.437s,PASSED
+"waitForElementPresent(findTestObject(""Homepage/txt_Products""), 0)",,,,2022-12-14 21:57:30,2022-12-14 21:57:37,7.151s,PASSED
+"verifyElementExist(findTestObject(""Homepage/txt_Products""), 0)",,,,2022-12-14 21:57:37,2022-12-14 21:57:38,1.579s,PASSED
+"tap(findTestObject(""Homepage/btn_Menu""), 0)",,,,2022-12-14 21:57:38,2022-12-14 21:57:39,0.966s,PASSED
+"verifyElementExist(findTestObject(""Homepage/menu__btn_QR Code Scanner""), 0)",,,,2022-12-14 21:57:39,2022-12-14 21:57:41,1.627s,PASSED
+"tap(findTestObject(""Homepage/menu__btn_QR Code Scanner""), 0)",,,,2022-12-14 21:57:41,2022-12-14 21:57:42,0.739s,PASSED
+"waitForElementPresent(findTestObject(""QRCodeScanner/txt_QR Code Scanner""), 0)",,,,2022-12-14 21:57:42,2022-12-14 21:57:45,2.736s,PASSED
+"verifyElementVisible(findTestObject(""QRCodeScanner/txt_QR Code Scanner""), 0)",,,,2022-12-14 21:57:45,2022-12-14 21:57:45,0.759s,PASSED
+driver = getDriver(),,,,2022-12-14 21:57:45,2022-12-14 21:57:45,0.005s,PASSED
+driver.terminateApp(G_Package),,,,2022-12-14 21:57:45,2022-12-14 21:57:47,1.363s,PASSED
+,,,,,,,
+Test Cases/User/Homepage/HP-003,,,,2022-12-14 21:57:47,2022-12-14 21:58:24,36.858s,PASSED
+"startExistingApplication(G_Package, STOP_ON_FAILURE)",,,,2022-12-14 21:57:47,2022-12-14 21:58:11,23.911s,PASSED
+"waitForElementPresent(findTestObject(""Homepage/txt_Products""), 0)",,,,2022-12-14 21:58:11,2022-12-14 21:58:16,4.945s,PASSED
+"verifyElementExist(findTestObject(""Homepage/txt_Products""), 0)",,,,2022-12-14 21:58:16,2022-12-14 21:58:17,1.169s,PASSED
+"tap(findTestObject(""Homepage/btn_Menu""), 0)",,,,2022-12-14 21:58:17,2022-12-14 21:58:18,1.007s,PASSED
+"verifyElementExist(findTestObject(""Homepage/menu__btn_Geo Location""), 0)",,,,2022-12-14 21:58:18,2022-12-14 21:58:20,2.147s,PASSED
+"tap(findTestObject(""Homepage/menu__btn_Geo Location""), 0)",,,,2022-12-14 21:58:20,2022-12-14 21:58:21,0.838s,PASSED
+"waitForElementPresent(findTestObject(""GeoLocation/txt_Geo Location""), 0)",,,,2022-12-14 21:58:21,2022-12-14 21:58:22,1.056s,PASSED
+"verifyElementVisible(findTestObject(""GeoLocation/txt_Geo Location""), 0)",,,,2022-12-14 21:58:22,2022-12-14 21:58:23,0.589s,PASSED
+driver = getDriver(),,,,2022-12-14 21:58:23,2022-12-14 21:58:23,0.001s,PASSED
+driver.terminateApp(G_Package),,,,2022-12-14 21:58:23,2022-12-14 21:58:24,0.835s,PASSED

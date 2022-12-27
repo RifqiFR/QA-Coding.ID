@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Homepage" time="134.32" tests="3" failures="0" errors="0">
+   <testsuite name="Homepage" tests="3" failures="0" errors="0" time="134.32" skipped="0" timestamp="2022-12-14 21:56:09" hostname="aldimhr - otak" id="Test Suites/Homepage">
+      <properties>
+         <property name="deviceName" value="samsung SM-G570Y (Android 8.0.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/aldimhr/git/quiz-day-8_katalon-mobile-testing/Reports/20221214_215605/Homepage/20221214_215605"/>
+         <property name="logFiles" value="/home/aldimhr/git/quiz-day-8_katalon-mobile-testing/Reports/20221214_215605/Homepage/20221214_215605/appium.log, /home/aldimhr/git/quiz-day-8_katalon-mobile-testing/Reports/20221214_215605/Homepage/20221214_215605/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aldimhr - otak"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-G570Y"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="42008534d6e7b395"/>
+         <property name="deviceName" value="samsung SM-G570Y (Android 8.0.0)"/>
+         <property name="deviceOSVersion" value="8.0.0"/>
+      </properties>
+      <testcase name="Test Cases/User/Homepage/HP-001" time="51.116" classname="Test Cases/User/Homepage/HP-001" status="PASSED">
+         <system-out><![CDATA[2022-12-14 21:56:10 - [TEST_CASE][PASSED] - Test Cases/User/Homepage/HP-001: Test Cases/User/Homepage/HP-001
+
+2022-12-14 21:56:10 - [TEST_STEP][PASSED] - startExistingApplication(G_Package, STOP_ON_FAILURE): Starting app with application ID: 'com.saucelabs.mydemoapp.rn'
+
+2022-12-14 21:56:12 - [MESSAGE][INFO] - Detected NodeJS location: "/home/aldimhr/.nvm/versions/node/v16.17.0/bin/node"
+
+2022-12-14 21:56:14 - [MESSAGE][INFO] - Appium server started on port 42,579
+
+2022-12-14 21:56:42 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2022-12-14 21:56:44 - [MESSAGE][PASSED] - Starting app with application ID: 'com.saucelabs.mydemoapp.rn'
+
+2022-12-14 21:56:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Homepage/txt_Products"), 0): Element 'Object Repository/Homepage/txt_Products' is present
+
+2022-12-14 21:56:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-14 21:56:51 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/txt_Products' is present
+
+2022-12-14 21:56:51 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Homepage/txt_Products"), 0): Element 'Object Repository/Homepage/txt_Products' is exist
+
+2022-12-14 21:56:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-14 21:56:52 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/txt_Products' is exist
+
+2022-12-14 21:56:52 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/btn_Menu"), 0): Tapped on element 'Object Repository/Homepage/btn_Menu'
+
+2022-12-14 21:56:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-14 21:56:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/btn_Menu'
+
+2022-12-14 21:56:53 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Homepage/menu__btn_Webview"), 0): Element 'Object Repository/Homepage/menu__btn_Webview' is exist
+
+2022-12-14 21:56:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-14 21:56:56 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/menu__btn_Webview' is exist
+
+2022-12-14 21:56:56 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/menu__btn_Webview"), 0): Tapped on element 'Object Repository/Homepage/menu__btn_Webview'
+
+2022-12-14 21:56:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-14 21:56:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/menu__btn_Webview'
+
+2022-12-14 21:56:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Webview/txt_Webview"), 0): Element 'Object Repository/Webview/txt_Webview' is present
+
+2022-12-14 21:56:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-14 21:56:59 - [MESSAGE][PASSED] - Element 'Object Repository/Webview/txt_Webview' is present
+
+2022-12-14 21:56:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Webview/txt_Webview"), 0): Element 'Object Repository/Webview/txt_Webview' is visible
+
+2022-12-14 21:56:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-14 21:57:00 - [MESSAGE][PASSED] - Element 'Object Repository/Webview/txt_Webview' is visible
+
+2022-12-14 21:57:00 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2022-12-14 21:57:00 - [TEST_STEP][PASSED] - driver.terminateApp(G_Package): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/Homepage/HP-002" time="45.8" classname="Test Cases/User/Homepage/HP-002" status="PASSED">
+         <system-out><![CDATA[2022-12-14 21:57:01 - [TEST_CASE][PASSED] - Test Cases/User/Homepage/HP-002: Test Cases/User/Homepage/HP-002
+
+2022-12-14 21:57:01 - [TEST_STEP][PASSED] - startExistingApplication(G_Package, STOP_ON_FAILURE): Starting app with application ID: 'com.saucelabs.mydemoapp.rn'
+
+2022-12-14 21:57:28 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2022-12-14 21:57:30 - [MESSAGE][PASSED] - Starting app with application ID: 'com.saucelabs.mydemoapp.rn'
+
+2022-12-14 21:57:30 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Homepage/txt_Products"), 0): Element 'Object Repository/Homepage/txt_Products' is present
+
+2022-12-14 21:57:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-14 21:57:37 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/txt_Products' is present
+
+2022-12-14 21:57:37 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Homepage/txt_Products"), 0): Element 'Object Repository/Homepage/txt_Products' is exist
+
+2022-12-14 21:57:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-14 21:57:38 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/txt_Products' is exist
+
+2022-12-14 21:57:38 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/btn_Menu"), 0): Tapped on element 'Object Repository/Homepage/btn_Menu'
+
+2022-12-14 21:57:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-14 21:57:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/btn_Menu'
+
+2022-12-14 21:57:39 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Homepage/menu__btn_QR Code Scanner"), 0): Element 'Object Repository/Homepage/menu__btn_QR Code Scanner' is exist
+
+2022-12-14 21:57:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-14 21:57:41 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/menu__btn_QR Code Scanner' is exist
+
+2022-12-14 21:57:41 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/menu__btn_QR Code Scanner"), 0): Tapped on element 'Object Repository/Homepage/menu__btn_QR Code Scanner'
+
+2022-12-14 21:57:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-14 21:57:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/menu__btn_QR Code Scanner'
+
+2022-12-14 21:57:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("QRCodeScanner/txt_QR Code Scanner"), 0): Element 'Object Repository/QRCodeScanner/txt_QR Code Scanner' is present
+
+2022-12-14 21:57:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-14 21:57:45 - [MESSAGE][PASSED] - Element 'Object Repository/QRCodeScanner/txt_QR Code Scanner' is present
+
+2022-12-14 21:57:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("QRCodeScanner/txt_QR Code Scanner"), 0): Element 'Object Repository/QRCodeScanner/txt_QR Code Scanner' is visible
+
+2022-12-14 21:57:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-14 21:57:45 - [MESSAGE][PASSED] - Element 'Object Repository/QRCodeScanner/txt_QR Code Scanner' is visible
+
+2022-12-14 21:57:45 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2022-12-14 21:57:45 - [TEST_STEP][PASSED] - driver.terminateApp(G_Package): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/Homepage/HP-003" time="36.858" classname="Test Cases/User/Homepage/HP-003" status="PASSED">
+         <system-out><![CDATA[2022-12-14 21:57:47 - [TEST_CASE][PASSED] - Test Cases/User/Homepage/HP-003: Test Cases/User/Homepage/HP-003
+
+2022-12-14 21:57:47 - [TEST_STEP][PASSED] - startExistingApplication(G_Package, STOP_ON_FAILURE): Starting app with application ID: 'com.saucelabs.mydemoapp.rn'
+
+2022-12-14 21:58:10 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2022-12-14 21:58:11 - [MESSAGE][PASSED] - Starting app with application ID: 'com.saucelabs.mydemoapp.rn'
+
+2022-12-14 21:58:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Homepage/txt_Products"), 0): Element 'Object Repository/Homepage/txt_Products' is present
+
+2022-12-14 21:58:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-14 21:58:16 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/txt_Products' is present
+
+2022-12-14 21:58:16 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Homepage/txt_Products"), 0): Element 'Object Repository/Homepage/txt_Products' is exist
+
+2022-12-14 21:58:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-14 21:58:17 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/txt_Products' is exist
+
+2022-12-14 21:58:17 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/btn_Menu"), 0): Tapped on element 'Object Repository/Homepage/btn_Menu'
+
+2022-12-14 21:58:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-14 21:58:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/btn_Menu'
+
+2022-12-14 21:58:18 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Homepage/menu__btn_Geo Location"), 0): Element 'Object Repository/Homepage/menu__btn_Geo Location' is exist
+
+2022-12-14 21:58:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-14 21:58:20 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/menu__btn_Geo Location' is exist
+
+2022-12-14 21:58:20 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/menu__btn_Geo Location"), 0): Tapped on element 'Object Repository/Homepage/menu__btn_Geo Location'
+
+2022-12-14 21:58:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-14 21:58:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/menu__btn_Geo Location'
+
+2022-12-14 21:58:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("GeoLocation/txt_Geo Location"), 0): Element 'Object Repository/GeoLocation/txt_Geo Location' is present
+
+2022-12-14 21:58:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-14 21:58:22 - [MESSAGE][PASSED] - Element 'Object Repository/GeoLocation/txt_Geo Location' is present
+
+2022-12-14 21:58:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GeoLocation/txt_Geo Location"), 0): Element 'Object Repository/GeoLocation/txt_Geo Location' is visible
+
+2022-12-14 21:58:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-14 21:58:23 - [MESSAGE][PASSED] - Element 'Object Repository/GeoLocation/txt_Geo Location' is visible
+
+2022-12-14 21:58:23 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2022-12-14 21:58:23 - [TEST_STEP][PASSED] - driver.terminateApp(G_Package): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-14 21:56:09 - [TEST_SUITE][PASSED] - Homepage: Test Cases/User/Homepage/HP-003]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
